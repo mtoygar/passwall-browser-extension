@@ -1,21 +1,17 @@
-# PassWall Web
+# PassWall Browser Extension
 
 ### Development
 
 ```
-npm install
-npm run dev
+npm build
+npm export
 ```
 
-### Build & Start
+`npm export` command will output a `out` folder in project's root directory. Copy that file inside extension-src folder.
 
-```
-npm install
-npm run build && npm run start
-```
+Afterwards, you can install the extension in the development mode directly to Firefox or Chrome.
 
-### Docker
+Below two links can guide you for how to install the extension in the development mode directly to Firefox or Chrome.
 
-```
-docker-compose up --build
-```
+- https://developer.chrome.com/extensions/getstarted#manifest
+- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
