@@ -1,0 +1,12 @@
+body {
+  padding: 30px;
+}
+
+.ant-input-prefix {
+  opacity: 0.5;
+  margin-right: 6px;
+}
+
+.ant-form-vertical .ant-form-item-label {
+  padding-bottom: 2px;
+}

@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+
+  passwall-web:
+    container_name: passwall-web
+    image: passwall/passwall-web:latest
+    restart: always
+    build:
+      context: .
+    ports:
+      - 3000:3000
