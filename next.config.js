@@ -18,6 +18,7 @@ module.exports = function (phase, { defaultConfig }) {
   }
 
   return {
-    env
+    env,
+    assetPrefix: '/out',
   }
 }
