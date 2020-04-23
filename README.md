@@ -5,6 +5,21 @@ This repo is constituted to demonstrate the utilization of official [passwall-we
 
 Obviously, the web code does not designed for such a use, but most of the javascript code can be used directly or with little change. Moreover, having a framework eases the testability and maintainability of the extension code.
 
+### Screenshots
+
+- Below screenshots are actually identical to passwall-web. The only difference is they are taken from extension's popup.
+
+<table>
+  <tr>
+    <td><img src="screenshots/readme-login.png" alt="Login Screen"/></td>
+    <td><img src="screenshots/readme-login-index.png" alt="Login Index"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/readme-new-login.png" alt="New Login Modal"/></td>
+    <td><img src="screenshots/readme-login-search.png" alt="Login Search"/></td>
+  </tr>
+</table>
+
 ### Development
 
 ```
