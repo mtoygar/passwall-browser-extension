@@ -23,9 +23,12 @@ Obviously, the web code does not designed for such a use, but most of the javasc
 ### Development
 
 1. Clone the project.
-2. Run `npm build` to build the project.
-3. Run `npm export` to generate static export. It will be exported to `out` folder in project's root directory.
-4. Copy `out` folder to the `extension-src` folder which is on project's root directory.
-5. Install the extension in the development mode directly to Firefox or Chrome. Below two links can guide you on how to do it.
+2. Run `npm install` command
+3. Run `npm run ship`command. This will build and export project by doing the following steps for you.
+    * Run `npm build` to build the project.
+    * Run `npm export` to generate static export. It will be exported to `out` folder in project's root directory.
+    * Copy `out` folder to the `extension-src` folder which is on project's root directory.
+
+4. Install the extension in the development mode directly to Firefox or Chrome. Below two links can guide you on how to do it.
 - https://developer.chrome.com/extensions/getstarted#manifest
 - https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
