@@ -5,6 +5,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export",
+    "ship": "gulp default",
     "start": "next start"
   },
   "dependencies": {
@@ -21,6 +22,9 @@
     "yup": "^0.28.3"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-shell": "^0.8.0",
     "prettier": "^2.0.4"
   }
 }
